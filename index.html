@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./stylesheet/reset.css" />
+    <link rel="stylesheet" href="./stylesheet/main.css" />
+    <link rel="shortcut icon" href="./images/favicon.png" />
+    <title>Ev. Intermedia Patricia Vaquero</title>
+  </head>
+  <body>
+    <header class="header">
+      <h1 class="title">Adivina el número</h1>
+    </header>
+    <main class="main">
+      <form class="form" action="">
+        <label for="inputNumber" class="label">Introduce aquí tu número:</label>
+        <input
+          type="number"
+          id="inputNumber"
+          placeholder="Escribe un número entre 1-100"
+          class="input1 js-inputNumber"
+        />
+        <input type="button" value="Prueba" class="js-button button" />
+        <a href="./index.html" class="playAgain" title="Play Again">Juega de nuevo</a>
+        <p class="paragraph js-text">
+          Pista: Escribe el número y dale a Prueba
+        </p>
+        <input
+          type="text"
+          value="Número de intentos: 0"
+          class="input2 js-try"
+        />
+      </form>
+    </main>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
